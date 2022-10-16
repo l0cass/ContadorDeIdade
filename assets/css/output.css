@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p,
+a,
+span,
+i {
+  margin-bottom: 0 !important;
+}
+
+body {
+  background-color: #222 !important;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 30px 30px;
+}
+
+button.btn-dark {
+  padding-left: 2vh;
+  padding-right: 2vh;
+  border-radius: 5vh;
+  background-color: #333;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#getDate {
+  min-height: 24vh;
+}
+
+#getDate button.btn-dark {
+  border-radius: 1vh;
+}
+
+#getDate input[type="text"] {
+  padding: 2vh;
+  text-align: center;
+  border: #333 2px solid;
+  border-radius: 1vh;
+}
+
+#resultDate {
+  height: 0;
+  color: #fff;
+  text-align: center;
+}

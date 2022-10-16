@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/output.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <main class="row">
+        <section>
+          <button class="btn btn-dark btn-lg" onclick="startOrRestart()">
+            <i class="h1 bi bi-github"></i>
+          </button>
+          <div id="getDate">
+            <input
+              type="text"
+              name="inputNumber"
+              id="inputNumber"
+              maxlength="10"
+              placeholder="01/01/2001"
+            />
+            <div class="h1" id="resultDate"></div>
+            <button class="btn btn-dark w-100" onclick="requestCalculate()">
+              <i class="h3 bi bi-calculator"></i>
+            </button>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
+<script src="./assets/script/moment.min.js"></script>
+<script src="./assets/script/index.js"></script>
